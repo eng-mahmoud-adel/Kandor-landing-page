@@ -1,0 +1,53 @@
+#practice-section {
+    padding: 64px 0;
+}
+
+@media (max-width: 575.98px) {
+    #practice-section {
+        padding: 48px 0 64px;
+    }
+
+    #practice-section .practice h2 {
+        font-size: 28px;
+        font-weight: bold;
+        padding: 0 40px;
+    }
+
+    #practice-section .practice p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}
+
+#practice-section .practice {
+    flex-direction: column;
+}
+
+#practice-section .practice p {
+    font-size: 20px;
+}
+
+#practice-section .lets-practice {
+    background-color: #237FF6;
+    border-radius: 16px;
+    height: 262px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+    #practice-section .lets-practice h2 {
+        font-size: 28px;
+        padding: 0 70px;
+    }
+}
+
+#practice-section .lets-practice button {
+    font-size: 18px;
+    height: 58px;
+    background-color: white;
+    color: #237FF6;
+    border: 1px solid #237FF6;
+}
+

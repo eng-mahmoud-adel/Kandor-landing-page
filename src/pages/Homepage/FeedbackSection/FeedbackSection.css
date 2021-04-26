@@ -1,0 +1,43 @@
+#feedback-section {
+    padding: 64px 0;
+}
+
+@media (max-width: 575.98px) {
+    #feedback-section {
+        padding: 48px 0;
+    }
+
+    #feedback-section h2 {
+        font-size: 28px;
+        padding: 0 36px;
+        font-weight: bold;
+    }
+}
+
+#feedback-section p {
+    font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+    #feedback-section p {
+        font-size: 16px;
+        padding: 0 22px;
+    }
+}
+
+#feedback-section button {
+    height: 58px;
+    font-size: 18px;
+}
+
+#feedback-section iframe {
+    width: 1069px;
+    height: 555px;
+}
+
+@media (max-width: 575.98px) {
+    #feedback-section iframe {
+        width: 375px;
+        height: 217px;
+    }
+}

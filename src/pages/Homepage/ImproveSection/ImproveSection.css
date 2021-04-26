@@ -1,0 +1,119 @@
+#improve-section h1 {
+    font-size: 32px;
+    padding-right: 75px;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section h1 {
+        font-size: 28px;
+        padding-right: 14px;
+    }
+}
+
+#improve-section p {
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+#improve-section button {
+    height: 58px;
+    width: 290px;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section p {
+        font-size: 16px;
+        padding-right: 22px;
+    }
+
+    #improve-section button {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
+#improve-section .band-score-section {
+    position: relative;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section .band-score-section .improve-image {
+        width: 265.67px;
+        height: 159.25px;
+    }
+}
+
+#improve-section .band-score-section .band-score {
+    position: absolute;
+    width: 321px;
+    height: 259px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    bottom: -75px;
+    right: -20px;
+    padding: 20px 24px;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section .band-score-section h6 {
+        font-size: 12px;
+    }
+
+    #improve-section .band-score-section .band-score {
+        width: 233px;
+        height: 169.52px;
+        bottom: -122px;
+        right: 24px;
+        padding: 8px 16px;
+    }
+
+    #improve-section .band-score-section .band-score .row {
+        height: 68px;
+    }
+}
+
+#improve-section .band-score-section .band-score hr {
+    margin: 10px 0;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section .band-score-section .band-score hr {
+        margin: 4px 0;
+    }
+}
+
+#improve-section .band-score-section .band-score .score {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section .band-score-section .band-score .score {
+        font-size: 18px;
+    }
+}
+
+#improve-section .band-score-section .band-score span {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+@media (max-width: 575.98px) {
+    #improve-section .band-score-section .band-score span {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+
+    #improve-section .band-score-section .band-score .progressbar {
+        width: 70px;
+        position: relative;
+        top: -10px;
+    }
+
+    #improve-section .band-score-section .band-score .grammer,
+    #improve-section .band-score-section .band-score .pronounciation {
+        position: relative;
+        top: -16px;
+    }
+}
